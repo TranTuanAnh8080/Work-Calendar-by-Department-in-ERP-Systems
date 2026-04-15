@@ -1,0 +1,209 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.6 Chrome/144.0.7559.236 Electron/40.8.4 Safari/537.36" version="29.6.6">
+  <diagram name="Page-1" id="_hIQSbZk5jnGdzt05si5">
+    <mxGraphModel dx="1158" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qStwdgGF9CIkP_T0gKRn-5" parent="1" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;whiteSpace=wrap;" value="Work Calendar Management by Department in ERP Systems" vertex="1">
+          <mxGeometry height="595" width="1290" x="60" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qStwdgGF9CIkP_T0gKRn-6" parent="qStwdgGF9CIkP_T0gKRn-5" style="swimlane;html=1;startSize=20;" value="Admin" vertex="1">
+          <mxGeometry height="575" width="280" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qStwdgGF9CIkP_T0gKRn-11" parent="qStwdgGF9CIkP_T0gKRn-6" style="ellipse;fillColor=strokeColor;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="10" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="qStwdgGF9CIkP_T0gKRn-15" edge="1" parent="qStwdgGF9CIkP_T0gKRn-6" source="qStwdgGF9CIkP_T0gKRn-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qStwdgGF9CIkP_T0gKRn-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qStwdgGF9CIkP_T0gKRn-12" parent="qStwdgGF9CIkP_T0gKRn-6" style="rounded=0;whiteSpace=wrap;html=1;" value="Upload Global Holidays Template" vertex="1">
+          <mxGeometry height="60" width="120" x="80" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="qStwdgGF9CIkP_T0gKRn-13" edge="1" parent="qStwdgGF9CIkP_T0gKRn-6" source="qStwdgGF9CIkP_T0gKRn-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="qStwdgGF9CIkP_T0gKRn-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qStwdgGF9CIkP_T0gKRn-17" edge="1" parent="qStwdgGF9CIkP_T0gKRn-6" source="qStwdgGF9CIkP_T0gKRn-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qStwdgGF9CIkP_T0gKRn-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qStwdgGF9CIkP_T0gKRn-14" parent="qStwdgGF9CIkP_T0gKRn-6" style="rounded=0;whiteSpace=wrap;html=1;" value="Choose specific type of days" vertex="1">
+          <mxGeometry height="60" width="120" x="80" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="qStwdgGF9CIkP_T0gKRn-16" parent="qStwdgGF9CIkP_T0gKRn-6" style="rounded=0;whiteSpace=wrap;html=1;" value="Save data changes" vertex="1">
+          <mxGeometry height="60" width="120" x="80" y="245" as="geometry" />
+        </mxCell>
+        <mxCell id="qStwdgGF9CIkP_T0gKRn-8" parent="qStwdgGF9CIkP_T0gKRn-5" style="swimlane;html=1;startSize=20;" value="SAP System" vertex="1">
+          <mxGeometry height="575" width="420" x="280" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qStwdgGF9CIkP_T0gKRn-21" edge="1" parent="qStwdgGF9CIkP_T0gKRn-8" source="qStwdgGF9CIkP_T0gKRn-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qStwdgGF9CIkP_T0gKRn-20" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qStwdgGF9CIkP_T0gKRn-18" parent="qStwdgGF9CIkP_T0gKRn-8" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Validation data changes" vertex="1">
+          <mxGeometry height="60" width="120" x="30" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qStwdgGF9CIkP_T0gKRn-23" edge="1" parent="qStwdgGF9CIkP_T0gKRn-8" source="qStwdgGF9CIkP_T0gKRn-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="160" />
+            </Array>
+            <mxPoint x="180" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qStwdgGF9CIkP_T0gKRn-31" connectable="0" parent="qStwdgGF9CIkP_T0gKRn-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="yes" vertex="1">
+          <mxGeometry relative="1" x="-0.4867" y="5" as="geometry">
+            <mxPoint x="-1" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qStwdgGF9CIkP_T0gKRn-27" edge="1" parent="qStwdgGF9CIkP_T0gKRn-8" source="qStwdgGF9CIkP_T0gKRn-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qStwdgGF9CIkP_T0gKRn-26" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qStwdgGF9CIkP_T0gKRn-32" connectable="0" parent="qStwdgGF9CIkP_T0gKRn-27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="no" vertex="1">
+          <mxGeometry relative="1" x="-0.16" y="-2" as="geometry">
+            <mxPoint x="12" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qStwdgGF9CIkP_T0gKRn-20" parent="qStwdgGF9CIkP_T0gKRn-8" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" value="Legitimate ?" vertex="1">
+          <mxGeometry height="80" width="80" x="50" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="qStwdgGF9CIkP_T0gKRn-22" parent="qStwdgGF9CIkP_T0gKRn-8" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" value="&lt;b&gt;Step 1:&lt;/b&gt;&lt;div&gt;Re-binding DB updated&lt;b&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="215" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="qStwdgGF9CIkP_T0gKRn-26" parent="qStwdgGF9CIkP_T0gKRn-8" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" value="Inform re-verify data changes before saving" vertex="1">
+          <mxGeometry height="60" width="120" x="30" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="qStwdgGF9CIkP_T0gKRn-33" edge="1" parent="qStwdgGF9CIkP_T0gKRn-8" source="qStwdgGF9CIkP_T0gKRn-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qStwdgGF9CIkP_T0gKRn-24" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="220" as="sourcePoint" />
+            <mxPoint x="640" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qStwdgGF9CIkP_T0gKRn-53" edge="1" parent="qStwdgGF9CIkP_T0gKRn-8" source="qStwdgGF9CIkP_T0gKRn-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qStwdgGF9CIkP_T0gKRn-52" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qStwdgGF9CIkP_T0gKRn-50" parent="qStwdgGF9CIkP_T0gKRn-8" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Persist changes to Z Custom-Tables" vertex="1">
+          <mxGeometry height="60" width="120" x="30" y="395" as="geometry" />
+        </mxCell>
+        <mxCell id="qStwdgGF9CIkP_T0gKRn-55" edge="1" parent="qStwdgGF9CIkP_T0gKRn-8" source="qStwdgGF9CIkP_T0gKRn-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qStwdgGF9CIkP_T0gKRn-54" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qStwdgGF9CIkP_T0gKRn-52" parent="qStwdgGF9CIkP_T0gKRn-8" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Generate Audit Logs" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="395" as="geometry" />
+        </mxCell>
+        <mxCell id="qStwdgGF9CIkP_T0gKRn-54" parent="qStwdgGF9CIkP_T0gKRn-8" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Trigger SMTP Email" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="qStwdgGF9CIkP_T0gKRn-63" parent="qStwdgGF9CIkP_T0gKRn-8" style="swimlane;" value="" vertex="1">
+          <mxGeometry height="270" width="190" x="180" y="60" as="geometry">
+            <mxRectangle height="40" width="50" x="175" y="70" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qStwdgGF9CIkP_T0gKRn-24" parent="qStwdgGF9CIkP_T0gKRn-63" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" value="&lt;b&gt;Step 2:&lt;/b&gt;&lt;div&gt;Trigger email notifications to relevant Dept Manager&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="170" x="10" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="qStwdgGF9CIkP_T0gKRn-34" parent="qStwdgGF9CIkP_T0gKRn-63" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" value="&lt;b&gt;Step 3:&lt;/b&gt;&lt;div&gt;Re-build data calendar UI with latest status&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="170" x="10" y="197.5" as="geometry" />
+        </mxCell>
+        <mxCell id="qStwdgGF9CIkP_T0gKRn-35" edge="1" parent="qStwdgGF9CIkP_T0gKRn-63" source="qStwdgGF9CIkP_T0gKRn-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qStwdgGF9CIkP_T0gKRn-34" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qStwdgGF9CIkP_T0gKRn-9" parent="qStwdgGF9CIkP_T0gKRn-5" style="swimlane;html=1;startSize=20;" value="Department Manager&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&#x9;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="575" width="330" x="700" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qStwdgGF9CIkP_T0gKRn-42" edge="1" parent="qStwdgGF9CIkP_T0gKRn-9" source="qStwdgGF9CIkP_T0gKRn-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qStwdgGF9CIkP_T0gKRn-41" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qStwdgGF9CIkP_T0gKRn-38" parent="qStwdgGF9CIkP_T0gKRn-9" style="whiteSpace=wrap;html=1;rounded=0;" value="Receive email sent from Admin configuration" vertex="1">
+          <mxGeometry height="60" width="120" x="30" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qStwdgGF9CIkP_T0gKRn-44" edge="1" parent="qStwdgGF9CIkP_T0gKRn-9" source="qStwdgGF9CIkP_T0gKRn-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qStwdgGF9CIkP_T0gKRn-43" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="140" />
+              <mxPoint x="70" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qStwdgGF9CIkP_T0gKRn-41" parent="qStwdgGF9CIkP_T0gKRn-9" style="whiteSpace=wrap;html=1;rounded=0;" value="Filter Dept Calendar" vertex="1">
+          <mxGeometry height="60" width="120" x="180" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qStwdgGF9CIkP_T0gKRn-46" edge="1" parent="qStwdgGF9CIkP_T0gKRn-9" source="qStwdgGF9CIkP_T0gKRn-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qStwdgGF9CIkP_T0gKRn-45" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qStwdgGF9CIkP_T0gKRn-43" parent="qStwdgGF9CIkP_T0gKRn-9" style="whiteSpace=wrap;html=1;rounded=0;" value="Choose range of time for update" vertex="1">
+          <mxGeometry height="60" width="120" x="10" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="qStwdgGF9CIkP_T0gKRn-49" edge="1" parent="qStwdgGF9CIkP_T0gKRn-9" source="qStwdgGF9CIkP_T0gKRn-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qStwdgGF9CIkP_T0gKRn-48" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="280" />
+              <mxPoint x="160" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qStwdgGF9CIkP_T0gKRn-45" parent="qStwdgGF9CIkP_T0gKRn-9" style="whiteSpace=wrap;html=1;rounded=0;" value="Update Calendar status" vertex="1">
+          <mxGeometry height="60" width="120" x="180" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="qStwdgGF9CIkP_T0gKRn-48" parent="qStwdgGF9CIkP_T0gKRn-9" style="whiteSpace=wrap;html=1;rounded=0;" value="Save/Confirm changes" vertex="1">
+          <mxGeometry height="60" width="120" x="105" y="335" as="geometry" />
+        </mxCell>
+        <mxCell id="qStwdgGF9CIkP_T0gKRn-10" parent="qStwdgGF9CIkP_T0gKRn-5" style="swimlane;html=1;startSize=20;" value="Employee" vertex="1">
+          <mxGeometry height="575" width="260" x="1030" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qStwdgGF9CIkP_T0gKRn-60" edge="1" parent="qStwdgGF9CIkP_T0gKRn-10" source="qStwdgGF9CIkP_T0gKRn-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qStwdgGF9CIkP_T0gKRn-59" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qStwdgGF9CIkP_T0gKRn-57" parent="qStwdgGF9CIkP_T0gKRn-10" style="whiteSpace=wrap;html=1;rounded=0;" value="&lt;span style=&quot;color: rgb(43, 45, 49); font-family: Inter, sans-serif; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font&gt;Receive Email Notification&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="10" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="qStwdgGF9CIkP_T0gKRn-62" edge="1" parent="qStwdgGF9CIkP_T0gKRn-10" source="qStwdgGF9CIkP_T0gKRn-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qStwdgGF9CIkP_T0gKRn-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qStwdgGF9CIkP_T0gKRn-59" parent="qStwdgGF9CIkP_T0gKRn-10" style="whiteSpace=wrap;html=1;rounded=0;" value="&lt;span style=&quot;color: rgb(43, 45, 49); font-family: Inter, sans-serif; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font&gt;View Synchronized Calendar&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="110" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="qStwdgGF9CIkP_T0gKRn-61" parent="qStwdgGF9CIkP_T0gKRn-10" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="155" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="qStwdgGF9CIkP_T0gKRn-19" edge="1" parent="qStwdgGF9CIkP_T0gKRn-5" source="qStwdgGF9CIkP_T0gKRn-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qStwdgGF9CIkP_T0gKRn-18" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="230" />
+              <mxPoint x="250" y="230" />
+              <mxPoint x="250" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qStwdgGF9CIkP_T0gKRn-29" edge="1" parent="qStwdgGF9CIkP_T0gKRn-5" source="qStwdgGF9CIkP_T0gKRn-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qStwdgGF9CIkP_T0gKRn-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="280" />
+              <mxPoint x="230" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qStwdgGF9CIkP_T0gKRn-39" edge="1" parent="qStwdgGF9CIkP_T0gKRn-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qStwdgGF9CIkP_T0gKRn-38" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="230" />
+              <mxPoint x="680" y="80" />
+            </Array>
+            <mxPoint x="650" y="230" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qStwdgGF9CIkP_T0gKRn-51" edge="1" parent="qStwdgGF9CIkP_T0gKRn-5" source="qStwdgGF9CIkP_T0gKRn-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qStwdgGF9CIkP_T0gKRn-50" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qStwdgGF9CIkP_T0gKRn-58" edge="1" parent="qStwdgGF9CIkP_T0gKRn-5" source="qStwdgGF9CIkP_T0gKRn-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qStwdgGF9CIkP_T0gKRn-57" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
